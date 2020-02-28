@@ -1,0 +1,28 @@
+header img {
+  width: 60%;
+}
+h1 {
+  font-size: 1.5em;
+}
+section img {
+  width: 320px;
+  height: 550px;
+}
+.entrée {
+  top: 23.6%;
+  width: 10%;
+}
+.plat {
+  top: 43.5%;
+  width: 20%;
+}
+.dessert {
+  color: #fff;
+  top: 63%;
+  width: 22%;
+}
+footer {
+  font-size: 1em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
