@@ -65,7 +65,7 @@ section img {
   width: 0px;
   height: 3px;
   display: block;
-  background: #57A64B;
+  background: linear-gradient(0.25turn, #57A64B, #B4D172, #C4DB94);
   transition: 300ms;
 }
 .entrée:hover:after{
@@ -92,7 +92,7 @@ section img {
   width: 0px;
   height: 3px;
   display: block;
-  background: #57A64B;
+  background: linear-gradient(0.25turn, #57A64B, #B4D172, #C4DB94);
   transition: 300ms;
 }
 .plat:hover:after{
@@ -119,7 +119,7 @@ section img {
   width: 0px;
   height: 3px;
   display: block;
-  background: #57A64B;
+  background: linear-gradient(0.25turn, #57A64B, #B4D172, #C4DB94);
   transition: 300ms;
 }
 .dessert:hover:after{
@@ -142,4 +142,13 @@ footer :last-child {
 footer a {
   text-decoration: none;
   color: inherit;
+}
+footer p:hover{
+  animation: wiggle 0.2s infinite alternate-reverse both;
+}
+@keyframes wiggle{
+  0%{ transform: rotate(0deg); }
+  33%{transform: rotate(2deg);}
+  66%{transform: rotate(-2deg);}
+  100% { transform: rotate(0deg); }
 }
