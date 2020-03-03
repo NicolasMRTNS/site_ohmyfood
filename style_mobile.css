@@ -1,24 +1,24 @@
-header img{
-    width: 60%;
+header img {
+  width: 60%;
 }
-section{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
-section a{
-    width: 60%;
-    margin-bottom: 20px;
+section a {
+  width: 60%;
+  margin-bottom: 20px;
 }
-#soon{
-    font-size: 1.5em;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 80%;
-    margin-bottom: 100px;
+#soon {
+  font-size: 1.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 80%;
+  margin-bottom: 100px;
 }
-footer{
-    font-size: 1em;
-    padding-left: 10px;
-    padding-right: 10px;
+footer {
+  font-size: 1em;
+  padding-left: 10px;
+  padding-right: 10px;
 }

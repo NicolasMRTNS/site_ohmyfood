@@ -1,15 +1,15 @@
-section img{
-    width: 600px;
-    height: 800px;
+section img {
+  width: 600px;
+  height: 800px;
 }
-.entrée{
-    width: 26%;
-    color: #000;
+.entrée {
+  width: 26%;
+  color: #000;
 }
-.plat{
-    width: 23%;
+.plat {
+  width: 23%;
 }
-.dessert{
-    width: 22%;
-    color: #000;
+.dessert {
+  width: 22%;
+  color: #000;
 }

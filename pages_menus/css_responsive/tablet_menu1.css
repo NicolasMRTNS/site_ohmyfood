@@ -1,13 +1,13 @@
-section img{
-    width: 600px;
-    height: 800px;
+section img {
+  width: 600px;
+  height: 800px;
 }
-.entrée{
-    width: 11%;
+.entrée {
+  width: 11%;
 }
-.plat{
-    width: 21%;
+.plat {
+  width: 21%;
 }
-.dessert{
-    width: 26%;
+.dessert {
+  width: 26%;
 }
