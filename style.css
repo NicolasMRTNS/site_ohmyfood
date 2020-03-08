@@ -29,14 +29,6 @@ header img {
   width: 25%;
 }
 /* section */
-input {
-  padding-left: 7px;
-  box-sizing: border-box;
-  width: 100%;
-  background-color: lightgray;
-  height: 30px;
-  border: 0;
-}
 section a {
   width: 26%;
   text-align: center;
