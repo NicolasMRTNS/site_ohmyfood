@@ -27,104 +27,115 @@ header {
 header img {
   width: 25%;
 }
+/* Début section */
 section {
   display: flex;
   flex-flow: column;
-  text-align: center;
   align-items: center;
-  margin-bottom: 8%;
+  margin-bottom: 10%;
 }
 h1 {
   font-size: 2.1em;
+  text-align: center;
 }
-section img {
-  box-shadow: 0 0 0.4em grey;
-  width: 50%;
+.font {
+  font-family: "Dancing Script", cursive;
 }
 .menu {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0.4em grey;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f9d9d5;
+}
+.music-debut {
+  font-size: 4em;
+  margin-top: 5%;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(left, #f04c5f, #f68d69);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.music_note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 2.5em;
+  margin: 0 10% 10% 10%;
+  text-align: center;
+}
+article {
+  width: 100%;
+}
+.display {
+  width: 100%;
+  display: flex;
+}
+.element {
+  display: flex;
+  width: inherit;
+}
+.element p{
+  margin-right: .5%;
+}
+.price {
+  margin-left: auto;
+}
+
+/* Début décoration texte */
+.text_deco {
+  color: #000;
+}
+.text_deco h3 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.text_deco h3 span {
+  background: #f9d9d5;
+  padding: 0 10px;
   position: relative;
-  display: inline-block;
+  font-size: 1.5em;
 }
-.entrée {
-  width: 6%;
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 22%;
-  text-align: center;
-  color: #f9d9d5;
-}
-.entrée:after {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
+.text_deco h3 span:after {
   content: "";
-  width: 0px;
-  height: 3px;
-  display: block;
-  background: black;
-  transition: 300ms;
-}
-.entrée:hover:after {
-  width: 100%;
-}
-.plat {
-  width: 10.2%;
   position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
+  width: 0;
+  height: 1px;
+  display: block;
+  margin-top: 10px;
   right: 0;
-  top: 47.2%;
-  text-align: center;
-  color: #3e141b;
+  background: #000;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
 }
-.plat:after {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  bottom: -5px;
-  content: "";
-  width: 0px;
-  height: 3px;
-  display: block;
-  background: black;
-  transition: 300ms;
+.text_deco h3 span:hover:after {
+  width: 98%;
+  left: 2px;
+  background: #000;
 }
-.plat:hover:after {
-  width: 100%;
+.music-end {
+  background: -webkit-linear-gradient(left, #f04c5f, #f68d69);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
 }
-.dessert {
-  width: 13%;
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 68.2%;
-  text-align: center;
-  color: #3e141b;
+.music_note_end {
+  display: flex;
+  justify-content: center;
 }
-.dessert:after {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  bottom: -7px;
-  content: "";
-  width: 0px;
-  height: 3px;
-  display: block;
-  background: black;
-  transition: 300ms;
+.music_note_end h2 {
+  margin-left: 5%;
+  margin-right: 0;
+  font-size: 1.7em;
 }
-.dessert:hover:after {
-  width: 100%;
-}
+/* Fin section */
+
 footer {
   display: flex;
   padding-left: 20px;
