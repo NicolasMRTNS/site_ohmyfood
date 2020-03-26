@@ -42,6 +42,8 @@ section {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 section img {
   width: 100%;
